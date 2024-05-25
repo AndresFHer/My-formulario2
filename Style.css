@@ -1,0 +1,59 @@
+*{
+    background-color: rgb(230, 246, 241);
+
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+h1{
+    text-align: center;
+}
+
+li, ul{
+    list-style: none;
+    padding: 8px;
+    background-color: rgb(152, 152, 246);
+    
+}
+
+
+.formulario .for{
+    border: 2px bold black;
+    background-color: rgb(152, 152, 246);
+    
+}
+
+form{
+   
+    margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: rgb(152, 152, 246);
+
+}
+
+form li + li{
+    margin-top: 1em;
+    background-color: rgb(152, 152, 246);
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    background-color: rgb(152, 152, 246);
+    font-size: 18px;
+  }
+
+button{
+    margin-left: 1.0em;
+    background-color: greenyellow;
+    font-size: 15px;
+}
